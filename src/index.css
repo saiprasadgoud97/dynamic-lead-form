@@ -1,0 +1,24 @@
+@import "./components/design-system/tokens/tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
